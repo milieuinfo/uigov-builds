@@ -1,0 +1,12 @@
+body {
+    margin: 16px
+}
+
+.block {
+    margin-left: 16px;
+}
+
+.vl-title--h4 {
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+}
