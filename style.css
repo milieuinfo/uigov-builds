@@ -10,3 +10,8 @@ body {
     margin-top: 2rem;
     margin-bottom: 0.6rem;
 }
+
+.default-list {
+    list-style-type: initial;
+    padding-inline-start : 40px;
+}
