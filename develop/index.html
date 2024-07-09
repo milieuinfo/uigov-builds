@@ -26,7 +26,7 @@
                 <br>
                 <br>
                 <details>
-                    <summary>Hoe versie nummer worden opgebouwd.</summary>
+                    <summary>Hoe versie nummers worden opgebouwd.</summary>
                     <br>
                     Deze snapshot releases worden automatisch gegenereerd bij elke push naar een develop branch conform semantic versioning.<br>
                     Naamgeving is als volgt: <strong>1.34.2-develop.3</strong>, waarbij:
@@ -39,11 +39,31 @@
                         <li><strong>3</strong> het buildnummer is</li>
                     </ul>
                 </details>
-                <br>
-                De relevante artifacts kan je terugvinden op <a href="https://repo.omgeving.vlaanderen.be/ui/repos/tree/General/snapshot-npm" target="_blank">artifactory (snapshot-npm)</a>.
-                <br>
-                Je dient van alle artifacts dezelfde versie af te nemen.
-               </div>
+                <br/>
+                De relevante artifacts kan je terugvinden op <a href="https://repo.omgeving.vlaanderen.be/ui/repos/tree/General/snapshot-npm" target="_blank">artifactory</a> (onder de folder "snapshot-npm").
+                <br/>
+                De exacte versie kan je dan ook hier terugvinden. Echter, je moet de packages niet van artifactory halen, maar instellen in de package.json van je project.
+                <br/>
+                <br/>
+                <img src="./snapshot-release-artifactory.png" style="width: 60vw" alt="screenshot artifactory"/>
+                <br/>
+                <br/>
+                Je dient van alle artifacts dezelfde versie af te nemen in je package.json:
+                <br/>
+                bv.:
+                <br/>
+                <br/>
+            <pre>
+                    "@domg-wc/common-utilities": "1.34.2-develop.3",
+                    "@domg-wc/components": "1.34.2-develop.3",
+                    "@domg-wc/elements": "1.34.2-develop.3",
+                    "@domg-wc/form": "1.34.2-develop.3",
+                    "@domg-wc/map": "1.34.2-develop.3",
+                    "@domg-wc/sections": "1.34.2-develop.3",
+            </pre>
+                Vervolgens voer je "npm install" uit in de root van je project en zal je de laatste snapshot release van de develop branch binnenhalen.
+
+            </div>
         </div>
         <div class="block">
             <!-- 1.16.0-beta-uig.1 -->
