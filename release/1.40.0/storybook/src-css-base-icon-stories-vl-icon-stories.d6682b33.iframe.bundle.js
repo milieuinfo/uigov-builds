@@ -1,0 +1,36 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[2366],{"../../node_modules/@storybook/addon-docs/dist/chunk-HLWAVYOI.mjs":(e,n,o)=>{o.d(n,{f:()=>b});var s=o("../../node_modules/react/index.js"),i=o("../../node_modules/react-dom/client.js"),t=new Map,c=({callback:e,children:n})=>{let o=(0,s.useRef)();return(0,s.useLayoutEffect)(()=>{o.current!==e&&(o.current=e,e())},[e]),n},d=async(e,n)=>{let o=await r(n);return new Promise(n=>{o.render(s.createElement(c,{callback:()=>n(null)},e))})},l=(e,n)=>{let o=t.get(e);o&&(o.unmount(),t.delete(e))},r=async e=>{let n=t.get(e);return n||(n=i.createRoot(e),t.set(e,n)),n},a=o("../../node_modules/@storybook/blocks/dist/index.mjs"),v={code:a.XA,a:a.zE,...a.Sw},m=class extends s.Component{constructor(){super(...arguments),this.state={hasError:!1}}static getDerivedStateFromError(){return{hasError:!0}}componentDidCatch(e){let{showException:n}=this.props;n(e)}render(){let{hasError:e}=this.state,{children:n}=this.props;return e?null:s.createElement(s.Fragment,null,n)}},b=class{constructor(){this.render=async(e,n,i)=>{let t={...v,...n?.components},c=a.kQ;return new Promise((l,r)=>{o.e(814).then(o.bind(o,"../../node_modules/@storybook/addon-docs/node_modules/@mdx-js/react/index.js")).then(({MDXProvider:o})=>d(s.createElement(m,{showException:r,key:Math.random()},s.createElement(o,{components:t},s.createElement(c,{context:e,docsParameter:n}))),i)).then(()=>l())})},this.unmount=e=>{l(e)}}}},"../../node_modules/@storybook/addon-docs/dist/index.mjs":(e,n,o)=>{o.d(n,{Hl:()=>s.Hl,W8:()=>s.W8,kL:()=>s.kL,ov:()=>s.ov}),o("../../node_modules/@storybook/addon-docs/dist/chunk-HLWAVYOI.mjs");var s=o("../../node_modules/@storybook/blocks/dist/index.mjs")},"../../libs/common/utilities/src/css/base/icon/stories/vl-icon.stories.ts":(e,n,o)=>{o.r(n),o.d(n,{IconDefault:()=>v,__namedExportsOrder:()=>m,default:()=>a});var s=o("../../node_modules/lit-html/lit-html.js"),i=o("../../libs/common/utilities/src/css/base/icon/vl-icon.css.ts");o("../../node_modules/react/index.js");var t=o("../../node_modules/react/jsx-runtime.js"),c=o("../../node_modules/@storybook/addon-docs/node_modules/@mdx-js/react/lib/index.js"),d=o("../../node_modules/@storybook/addon-docs/dist/index.mjs"),l=o("../../node_modules/@storybook/blocks/dist/index.mjs");function r(e){let n=Object.assign({h1:"h1",h2:"h2",ul:"ul",li:"li",a:"a",p:"p",code:"code"},(0,c.RP)(),e.components),{VluxMetaData:o}=n;return o||function(e,n){throw Error("Expected "+(n?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}("VluxMetaData",!0),(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(d.W8,{title:"Styles-next/Base (intern)/icon"}),"\n",(0,t.jsx)(n.h1,{id:"icon---next",children:"Icon - next"}),"\n",(0,t.jsx)(o,{id:"styles-next-base-intern-icon"}),"\n",(0,t.jsx)("br",{}),"\n",(0,t.jsx)(n.h2,{id:"inhoudstafel",children:"Inhoudstafel"}),"\n",(0,t.jsxs)(n.ul,{children:["\n",(0,t.jsx)(n.li,{children:(0,t.jsx)(n.a,{href:"#doel",children:"Doel"})}),"\n",(0,t.jsx)(n.li,{children:(0,t.jsx)(n.a,{href:"#voorbeelden",children:"Voorbeelden"})}),"\n"]}),"\n",(0,t.jsx)(n.h2,{id:"doel",children:"Doel"}),"\n",(0,t.jsxs)(n.p,{children:["Er wordt specifieke ",(0,t.jsx)(n.code,{children:"icon"})," styling voorzien. Het doel is deze implementatie te embedden in de css van concrete\ncomponenten. Het is een bouwblok, niet bedoeld voor rechtstreeks gebruik! In een eindtoepassing een icoon toevoegen\ngebeurt m.b.v. de ",(0,t.jsx)(n.a,{href:"/docs/components-next-icon--documentatie",children:"vl-icon-next"})," component."]}),"\n",(0,t.jsxs)(n.p,{children:["Componenten zoals de ",(0,t.jsx)(n.a,{href:"/docs/components-next-button--documentatie",children:"vl-button-next"})," en\n",(0,t.jsx)(n.a,{href:"/docs/components-next-link--documentatie",children:"vl-link-next"})," kunnen ook een icoon bevatten, deze gebruiken\ndaarvoor deze basis css. Hierdoor worden componenten-in-componenten of shadow-dom's in shadow-dom's vermeden."]}),"\n",(0,t.jsxs)(n.p,{children:["Daarnaast, zie ",(0,t.jsx)(n.a,{href:"/docs/beheren-icon-font--documentatie",children:"Beheren/Icon Font"}),", wordt er een css-mapping voor de iconen\nuit het ",(0,t.jsx)(n.a,{href:"/docs/styles-next-base-intern-font--documentatie",children:"icon-font"})," naar een logische naam voorzien. De feitelijke mapping\nwordt gegenereerd op basis van de ",(0,t.jsx)(n.code,{children:"svg"})," variant van het font."]}),"\n",(0,t.jsx)(n.h2,{id:"voorbeelden",children:"Voorbeelden"}),"\n",(0,t.jsx)(l.Hl,{of:v})]})}let a={id:"styles-next-base-intern-icon",title:"Styles-next/Base (intern)/icon",tags:["autodocs"],parameters:{docs:{page:function(e={}){let{wrapper:n}=Object.assign({},(0,c.RP)(),e.components);return n?(0,t.jsx)(n,Object.assign({},e,{children:(0,t.jsx)(r,e)})):r(e)}}}},v=({})=>(0,s.qy)`
+    <style>
+        .sb-icon {
+            ${i.m};
+            margin-bottom: 1rem;
+        }
+    </style>
+    <div class="sb-icon">
+        <div>icon - default</div>
+        <span class="vl-icon vl-icon--bike">
+    </div>
+    <div class="sb-icon">
+        <div>icon - small</div>
+        <span class="vl-icon vl-icon--small vl-icon--bike">
+    </div>
+    <div class="sb-icon">
+        <div>icon - large</div>
+        <span class="vl-icon vl-icon--large vl-icon--bike">
+    </div>
+    <div class="sb-icon">
+        <div>icon - light</div>
+        <span class="vl-icon vl-icon--light vl-icon--bike">
+    </div>
+    <div class="sb-icon">
+        <div>icon - right-margin</div>
+        <span class="vl-icon vl-icon--right-margin vl-icon--bike">
+    </div>
+    <div class="sb-icon">
+        <div>icon - left-margin</div>
+        <span class="vl-icon vl-icon--left-margin vl-icon--bike">
+    </div>
+    <div class="sb-icon">
+        <div>icon - clickable</div>
+        <span class="vl-icon vl-icon--clickable vl-icon--bike">
+    </div>
+`;v.storyName="icon - default",v.parameters={...v.parameters,docs:{...v.parameters?.docs,source:{originalSource:'({}) => html`\n    <style>\n        .sb-icon {\n            ${vlIconStyles};\n            margin-bottom: 1rem;\n        }\n    </style>\n    <div class="sb-icon">\n        <div>icon - default</div>\n        <span class="vl-icon vl-icon--bike">\n    </div>\n    <div class="sb-icon">\n        <div>icon - small</div>\n        <span class="vl-icon vl-icon--small vl-icon--bike">\n    </div>\n    <div class="sb-icon">\n        <div>icon - large</div>\n        <span class="vl-icon vl-icon--large vl-icon--bike">\n    </div>\n    <div class="sb-icon">\n        <div>icon - light</div>\n        <span class="vl-icon vl-icon--light vl-icon--bike">\n    </div>\n    <div class="sb-icon">\n        <div>icon - right-margin</div>\n        <span class="vl-icon vl-icon--right-margin vl-icon--bike">\n    </div>\n    <div class="sb-icon">\n        <div>icon - left-margin</div>\n        <span class="vl-icon vl-icon--left-margin vl-icon--bike">\n    </div>\n    <div class="sb-icon">\n        <div>icon - clickable</div>\n        <span class="vl-icon vl-icon--clickable vl-icon--bike">\n    </div>\n`',...v.parameters?.docs?.source}}};let m=["IconDefault"]},"../../node_modules/react-dom/client.js":(e,n,o)=>{var s=o("../../node_modules/react-dom/index.js");n.createRoot=s.createRoot,n.hydrateRoot=s.hydrateRoot}}]);
