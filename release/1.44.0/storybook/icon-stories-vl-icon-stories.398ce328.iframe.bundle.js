@@ -1,0 +1,37 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[231],{"../../node_modules/@storybook/addon-docs/dist/index.mjs":(e,t,n)=>{n.d(t,{Hl:()=>a.Hl,W8:()=>a.W8,kL:()=>a.kL,ov:()=>a.ov}),n("../../node_modules/@storybook/addon-docs/dist/chunk-HLWAVYOI.mjs");var a=n("../../node_modules/@storybook/addon-docs/node_modules/@storybook/blocks/dist/index.mjs")},"../../libs/elements/src/icon/stories/vl-icon.stories.ts":(e,t,n)=>{n.r(t),n.d(t,{__namedExportsOrder:()=>g,default:()=>c,iconAfter:()=>p,iconBefore:()=>u,iconDefault:()=>m});var a=n("../../node_modules/lit-html/lit-html.js");n("../../libs/elements/src/icon/vl-icon.element.ts"),n("../../libs/elements/src/icon/vl-icon-wrapper.element.ts");var o=n("../../libs/common/storybook/src/index.ts");let r={icon:{name:"data-vl-icon",control:{type:o.VH.SELECT},options:["calendar","chat-help","key"],description:"Attribuut wordt gebruikt om aan te geven welk icoon getoond moet worden.",table:{defaultValue:{summary:""},type:{summary:(0,o.uf)(["calendar","chat-help","key",""])}}},size:{name:"data-vl-size",control:{type:o.VH.SELECT},options:["small","large"],description:"Attribuut wordt gebruikt om het icoon te verkleinen (80%) of te vergroten (120%) ten opzichte van de parent.",table:{type:{summary:(0,o.uf)(["small","large",""])},defaultValue:{summary:""}}},light:{name:"data-vl-light",description:"Attribuut wordt gebruikt om het icoon een lichte kleur te geven.",table:{type:{summary:"boolean"},defaultValue:{summary:"false"}}},rotate:{name:"data-vl-90deg",description:"Attribuut wordt gebruikt om het icoon 90 graden te roteren.",table:{type:{summary:"boolean"},defaultValue:{summary:"false"}}},fullRotate:{name:"data-vl-180deg",description:"Attribuut wordt gebruikt om het icoon 180 graden te roteren.",table:{type:{summary:"boolean"},defaultValue:{summary:"false"}}},before:{name:"data-vl-before",description:"Attribuut wordt gebruikt wanneer het icoon voor een tekst staat en er wat ruimte tussen het icoon en de tekst getoond moet worden.",control:{disable:!0},table:{type:{summary:"boolean"},defaultValue:{summary:"false"}}},after:{name:"data-vl-after",description:"Attribuut wordt gebruikt wanneer het icoon achter een tekst staat en er wat ruimte tussen het icoon en de tekst getoond moet worden.",control:{disable:!0},table:{type:{summary:"boolean"},defaultValue:{summary:"false"}}},link:{name:"data-vl-link",description:"Attribuut moet gebruikt worden wanneer het icoon binnen een a tag gebruikt wordt zodat de stijl goed is.",control:{disable:!0},table:{type:{summary:"boolean"},defaultValue:{summary:"false"}}},content:{name:"content (for demo purposes)",table:{summary:"string"}}};n("../../node_modules/react/index.js");var l=n("../../node_modules/react/jsx-runtime.js"),s=n("../../node_modules/@storybook/addon-docs/node_modules/@mdx-js/react/lib/index.js"),i=n("../../node_modules/@storybook/addon-docs/dist/index.mjs");function d(e){let t=Object.assign({h1:"h1",p:"p",code:"code",h2:"h2",pre:"pre",h3:"h3",a:"a"},(0,s.RP)(),e.components),{VluxMetaData:n}=t;return n||function(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}("VluxMetaData",!0),(0,l.jsxs)(l.Fragment,{children:[(0,l.jsx)(t.h1,{id:"icon",children:"Icon"}),"\n",(0,l.jsx)(n,{id:"elements-icon-icon"}),"\n",(0,l.jsxs)(t.p,{children:["Gebruik de ",(0,l.jsx)(t.code,{children:"icon-next"})," component om een icoon af te beelden op een pagina.",(0,l.jsx)("br",{})]}),"\n",(0,l.jsx)(t.h2,{id:"voorbeeld",children:"Voorbeeld"}),"\n",(0,l.jsx)(t.pre,{children:(0,l.jsx)(t.code,{className:"language-js",children:"import { VlIconElement } from '@domg-wc/elements';\n"})}),"\n",(0,l.jsx)(t.pre,{children:(0,l.jsx)(t.code,{className:"language-html",children:'<span is="vl-icon" data-vl-icon="calendar"></p>\n'})}),"\n",(0,l.jsx)(i.Hl,{of:m}),"\n",(0,l.jsx)(t.h2,{id:"configuratie",children:"Configuratie"}),"\n",(0,l.jsx)(i.ov,{of:m}),"\n",(0,l.jsx)(t.h2,{id:"referenties",children:"Referenties"}),"\n",(0,l.jsx)(t.h3,{id:"digitaal-vlaanderen",children:"Digitaal Vlaanderen"}),"\n",(0,l.jsx)(t.p,{children:(0,l.jsx)(t.a,{href:"https://overheid.vlaanderen.be/webuniversum/v3/documentation/atoms/vl-ui-icon",target:"_blank",rel:"nofollow noopener noreferrer",children:"Documentatie Digitaal Vlaanderen - Icon"})})]})}let c={id:"elements-icon-icon",title:"Elements/icon/icon",tags:["autodocs"],args:{icon:"calendar",size:"",link:"",light:!1,rotate:!1,fullRotate:!1,before:!1,after:!1,content:"Lorem ipsum dolor sit amet"},argTypes:r,parameters:{docs:{page:function(e={}){let{wrapper:t}=Object.assign({},(0,s.RP)(),e.components);return t?(0,l.jsx)(t,Object.assign({},e,{children:(0,l.jsx)(d,e)})):d(e)}}}},m=({icon:e,size:t,light:n,rotate:o,fullRotate:r})=>(0,a.qy)`<span
+    is="vl-icon"
+    data-vl-icon=${e}
+    data-vl-size=${t}
+    ?data-vl-light=${n}
+    ?data-vl-90deg=${o}
+    ?data-vl-180deg=${r}
+    data-cy="icon-default"
+></span>`;m.storyName="vl-icon - default",m.argTypes={content:{control:!1}};let u=({icon:e,size:t,light:n,rotate:o,fullRotate:r,content:l,before:s})=>(0,a.qy)`<p
+    is="vl-icon-wrapper"
+>
+    <span
+        is="vl-icon"
+        data-vl-icon=${e}
+        data-vl-size=${t}
+        ?data-vl-light=${n}
+        ?data-vl-90deg=${o}
+        ?data-vl-180deg=${r}
+        ?data-vl-before=${s}
+        data-cy="icon-before-element"
+    ></span
+    ><span>${l}</span>
+</p>`;u.storyName="vl-icon - before",u.args={before:!0};let p=({icon:e,size:t,light:n,rotate:o,fullRotate:r,content:l,after:s})=>(0,a.qy)`<p
+    is="vl-icon-wrapper"
+>
+    <span>${l}</span
+    ><span
+        is="vl-icon"
+        data-vl-icon=${e}
+        data-vl-size=${t}
+        ?data-vl-light=${n}
+        ?data-vl-90deg=${o}
+        ?data-vl-180deg=${r}
+        ?data-vl-after=${s}
+        data-cy="icon-after-element"
+    ></span>
+</p>`;p.storyName="vl-icon - after",p.args={after:!0},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:'({\n  icon,\n  size,\n  light,\n  rotate,\n  fullRotate\n}: typeof iconArgs) => html`<span\n    is="vl-icon"\n    data-vl-icon=${icon}\n    data-vl-size=${size}\n    ?data-vl-light=${light}\n    ?data-vl-90deg=${rotate}\n    ?data-vl-180deg=${fullRotate}\n    data-cy="icon-default"\n></span>`',...m.parameters?.docs?.source}}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:'({\n  icon,\n  size,\n  light,\n  rotate,\n  fullRotate,\n  content,\n  before\n}: typeof iconArgs) => html`<p\n    is="vl-icon-wrapper"\n>\n    <span\n        is="vl-icon"\n        data-vl-icon=${icon}\n        data-vl-size=${size}\n        ?data-vl-light=${light}\n        ?data-vl-90deg=${rotate}\n        ?data-vl-180deg=${fullRotate}\n        ?data-vl-before=${before}\n        data-cy="icon-before-element"\n    ></span\n    ><span>${content}</span>\n</p>`',...u.parameters?.docs?.source}}},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:'({\n  icon,\n  size,\n  light,\n  rotate,\n  fullRotate,\n  content,\n  after\n}: typeof iconArgs) => html`<p\n    is="vl-icon-wrapper"\n>\n    <span>${content}</span\n    ><span\n        is="vl-icon"\n        data-vl-icon=${icon}\n        data-vl-size=${size}\n        ?data-vl-light=${light}\n        ?data-vl-90deg=${rotate}\n        ?data-vl-180deg=${fullRotate}\n        ?data-vl-after=${after}\n        data-cy="icon-after-element"\n    ></span>\n</p>`',...p.parameters?.docs?.source}}};let g=["iconDefault","iconBefore","iconAfter"]}}]);

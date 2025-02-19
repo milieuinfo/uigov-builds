@@ -1,0 +1,27 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[4099],{"../../node_modules/@storybook/addon-docs/dist/index.mjs":(e,l,n)=>{n.d(l,{Hl:()=>s.Hl,W8:()=>s.W8,kL:()=>s.kL,ov:()=>s.ov}),n("../../node_modules/@storybook/addon-docs/dist/chunk-HLWAVYOI.mjs");var s=n("../../node_modules/@storybook/addon-docs/node_modules/@storybook/blocks/dist/index.mjs")},"../../libs/common/utilities/src/css/layout/stacked/stories/vl-stacked.stories.ts":(e,l,n)=>{n.r(l),n.d(l,{StackedLarge:()=>a,StackedSmall:()=>v,__namedExportsOrder:()=>m,default:()=>i});var s=n("../../node_modules/lit-html/lit-html.js");n("../../node_modules/react/index.js");var t=n("../../node_modules/react/jsx-runtime.js"),o=n("../../node_modules/@storybook/addon-docs/node_modules/@mdx-js/react/lib/index.js"),d=n("../../node_modules/@storybook/blocks/dist/index.mjs"),c=n("../../node_modules/@storybook/addon-docs/dist/index.mjs");function r(e){let l=Object.assign({h1:"h1",h2:"h2",ul:"ul",li:"li",a:"a",p:"p",code:"code",h3:"h3"},(0,o.RP)(),e.components),{VluxMetaData:n}=l;return n||function(e,l){throw Error("Expected "+(l?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}("VluxMetaData",!0),(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(c.W8,{title:"Styles-next/Layout (afnemers)/stacked"}),"\n",(0,t.jsx)(l.h1,{id:"stacked---next",children:"Stacked - next"}),"\n",(0,t.jsx)(n,{id:"styles-next-layout-afnemers-stacked"}),"\n",(0,t.jsx)("br",{}),"\n",(0,t.jsx)(l.h2,{id:"inhoudstafel",children:"Inhoudstafel"}),"\n",(0,t.jsxs)(l.ul,{children:["\n",(0,t.jsx)(l.li,{children:(0,t.jsx)(l.a,{href:"#doel",children:"Doel"})}),"\n",(0,t.jsx)(l.li,{children:(0,t.jsx)(l.a,{href:"#gebruik",children:"Gebruik"})}),"\n"]}),"\n",(0,t.jsx)(l.h2,{id:"doel",children:"Doel"}),"\n",(0,t.jsx)(l.p,{children:"De 'stacked' style-classes beïnvloeden de ruimte tussen kind items."}),"\n",(0,t.jsx)(l.h2,{id:"gebruik",children:"Gebruik"}),"\n",(0,t.jsxs)(l.p,{children:["Op de omsluitende parent de class ",(0,t.jsx)(l.code,{children:"vl-stacked-next-large"})," of ",(0,t.jsx)(l.code,{children:"vl-stacked-next-small"})," zetten voegt\nbovenaan marge toe, behalve voor het eerste kind."]}),"\n",(0,t.jsx)(l.h3,{id:"vl-stacked-next-large",children:"vl-stacked-next-large"}),"\n",(0,t.jsx)(d.Hl,{of:a}),"\n",(0,t.jsx)(l.h3,{id:"vl-stacked-next-small",children:"vl-stacked-next-small"}),"\n",(0,t.jsx)(d.Hl,{of:v})]})}let i={id:"styles-next-layout-afnemers-stacked",title:"Styles-next/Layout (afnemers)/stacked",tags:["autodocs"],parameters:{docs:{page:function(e={}){let{wrapper:l}=Object.assign({},(0,o.RP)(),e.components);return l?(0,t.jsx)(l,Object.assign({},e,{children:(0,t.jsx)(r,e)})):r(e)}}}},a=({})=>(0,s.qy)`
+    <style>
+        .vl-grid-next .vl-column-next {
+            background-color: mediumspringgreen;
+            border: lightseagreen 2px solid;
+        }
+    </style>
+    <div class="vl-grid-next vl-stacked-next-large">
+        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>
+        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>
+        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>
+        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>
+    </div>
+`;a.storyName="vl-stacked - large";let v=({})=>(0,s.qy)`
+    <style>
+        .vl-grid-next .vl-column-next {
+            background-color: mediumspringgreen;
+            border: lightseagreen 2px solid;
+        }
+    </style>
+    <div class="vl-grid-next vl-stacked-next-small">
+        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>
+        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>
+        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>
+        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>
+    </div>
+`;v.storyName="vl-stacked - small",a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:'({}) => html`\n    <style>\n        .vl-grid-next .vl-column-next {\n            background-color: mediumspringgreen;\n            border: lightseagreen 2px solid;\n        }\n    </style>\n    <div class="vl-grid-next vl-stacked-next-large">\n        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>\n        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>\n        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>\n        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>\n    </div>\n`',...a.parameters?.docs?.source}}},v.parameters={...v.parameters,docs:{...v.parameters?.docs,source:{originalSource:'({}) => html`\n    <style>\n        .vl-grid-next .vl-column-next {\n            background-color: mediumspringgreen;\n            border: lightseagreen 2px solid;\n        }\n    </style>\n    <div class="vl-grid-next vl-stacked-next-small">\n        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>\n        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>\n        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>\n        <div class="vl-column-next vl-column-next--8 vl-column-next--offset-3"></div>\n    </div>\n`',...v.parameters?.docs?.source}}};let m=["StackedLarge","StackedSmall"]}}]);
